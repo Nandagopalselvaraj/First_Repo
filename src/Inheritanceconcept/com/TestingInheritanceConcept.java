@@ -31,7 +31,7 @@ class B extends A
 {
 	
 	
-	
+	@Override
 	void test1()
 	{
 		System.out.println("This is test method in child class");
