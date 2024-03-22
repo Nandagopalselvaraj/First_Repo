@@ -2,6 +2,7 @@ package CollectionsDemo.com;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListDemo {
 
@@ -93,6 +94,17 @@ public class ArrayListDemo {
 		Collections.sort(als);
 		System.out.println("After sorting the list");
 		System.out.println(als);
+		
+		//Topcasting
+		List<Integer> olist=new ArrayList<Integer>();
+		
+		olist.add(1);
+		olist.add(2);
+		olist.add(3);
+		olist.add(4);
+		System.out.println(olist);
+		System.out.println(olist.get(2));
+		
 		
 		
 		
